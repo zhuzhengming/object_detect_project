@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Photo</folder>
+	<filename>111.jpg</filename>
+	<path>/home/zhuzhengming/workspace/src/darknet_ros/darknet/scripts/VOCdevkit/VOC2021/JPEGImages/111.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1440</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ball</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>829</xmin>
+			<ymin>902</ymin>
+			<xmax>997</xmax>
+			<ymax>1057</ymax>
+		</bndbox>
+	</object>
+</annotation>

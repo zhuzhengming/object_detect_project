@@ -1,0 +1,9 @@
+/home/zhuzhengming/workspace/src/darknet_ros/darknet/scripts/VOCdevkit/VOC2021/JPEGImages/59.jpg
+/home/zhuzhengming/workspace/src/darknet_ros/darknet/scripts/VOCdevkit/VOC2021/JPEGImages/50.jpg
+/home/zhuzhengming/workspace/src/darknet_ros/darknet/scripts/VOCdevkit/VOC2021/JPEGImages/65.jpg
+/home/zhuzhengming/workspace/src/darknet_ros/darknet/scripts/VOCdevkit/VOC2021/JPEGImages/75.jpg
+/home/zhuzhengming/workspace/src/darknet_ros/darknet/scripts/VOCdevkit/VOC2021/JPEGImages/42.jpg
+/home/zhuzhengming/workspace/src/darknet_ros/darknet/scripts/VOCdevkit/VOC2021/JPEGImages/80.jpg
+/home/zhuzhengming/workspace/src/darknet_ros/darknet/scripts/VOCdevkit/VOC2021/JPEGImages/21.jpg
+/home/zhuzhengming/workspace/src/darknet_ros/darknet/scripts/VOCdevkit/VOC2021/JPEGImages/69.jpg
+/home/zhuzhengming/workspace/src/darknet_ros/darknet/scripts/VOCdevkit/VOC2021/JPEGImages/56.jpg
