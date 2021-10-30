@@ -669,6 +669,12 @@
 		<Unit filename="/home/zhuzhengming/workspace/src/HIKROBOT-MVS-CAMERA-ROS/src/hikrobot_camera.cpp">
 			<Option target="hikrobot_camera"/>
 		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp">
+			<Option target="hikrobot_camera"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp">
+			<Option target="hikrobot_camera"/>
+		</Unit>
 		<Unit filename="/usr/src/googletest/googlemock/src/gmock-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>

@@ -51,8 +51,8 @@ void mode_change(void){
 
         //object_track
         case 2:
-            
 
+            break;
 
     }
 }

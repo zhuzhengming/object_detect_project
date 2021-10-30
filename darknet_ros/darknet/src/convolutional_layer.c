@@ -8,6 +8,9 @@
 #include <stdio.h>
 #include <time.h>
 
+#define PRINT_CUDNN_ALGO 0
+#define MEMORY_LIMIT 2000000000
+
 #ifdef AI2
 #include "xnor_layer.h"
 #endif
@@ -122,15 +125,15 @@ static size_t get_workspace_size(layer l){
 #ifdef CUDNN
 void cudnn_convolutional_setup(layer *l)
 {
-    cudnnSetTensor4dDescriptor(l->dsrcTensorDesc, CUDNN_TENSOR_NCHW, CUDNN_DATA_FLOAT, l->batch, l->c, l->h, l->w); 
-    cudnnSetTensor4dDescriptor(l->ddstTensorDesc, CUDNN_TENSOR_NCHW, CUDNN_DATA_FLOAT, l->batch, l->out_c, l->out_h, l->out_w); 
+    cudnnSetTensor4dDescriptor(l->dsrcTensorDesc, CUDNN_TENSOR_NCHW, CUDNN_DATA_FLOAT, l->batch, l->c, l->h, l->w);
+    cudnnSetTensor4dDescriptor(l->ddstTensorDesc, CUDNN_TENSOR_NCHW, CUDNN_DATA_FLOAT, l->batch, l->out_c, l->out_h, l->out_w);
 
-    cudnnSetTensor4dDescriptor(l->srcTensorDesc, CUDNN_TENSOR_NCHW, CUDNN_DATA_FLOAT, l->batch, l->c, l->h, l->w); 
-    cudnnSetTensor4dDescriptor(l->dstTensorDesc, CUDNN_TENSOR_NCHW, CUDNN_DATA_FLOAT, l->batch, l->out_c, l->out_h, l->out_w); 
-    cudnnSetTensor4dDescriptor(l->normTensorDesc, CUDNN_TENSOR_NCHW, CUDNN_DATA_FLOAT, 1, l->out_c, 1, 1); 
+    cudnnSetTensor4dDescriptor(l->srcTensorDesc, CUDNN_TENSOR_NCHW, CUDNN_DATA_FLOAT, l->batch, l->c, l->h, l->w);
+    cudnnSetTensor4dDescriptor(l->dstTensorDesc, CUDNN_TENSOR_NCHW, CUDNN_DATA_FLOAT, l->batch, l->out_c, l->out_h, l->out_w);
+    cudnnSetTensor4dDescriptor(l->normTensorDesc, CUDNN_TENSOR_NCHW, CUDNN_DATA_FLOAT, 1, l->out_c, 1, 1);
 
-    cudnnSetFilter4dDescriptor(l->dweightDesc, CUDNN_DATA_FLOAT, CUDNN_TENSOR_NCHW, l->n, l->c/l->groups, l->size, l->size); 
-    cudnnSetFilter4dDescriptor(l->weightDesc, CUDNN_DATA_FLOAT, CUDNN_TENSOR_NCHW, l->n, l->c/l->groups, l->size, l->size); 
+    cudnnSetFilter4dDescriptor(l->dweightDesc, CUDNN_DATA_FLOAT, CUDNN_TENSOR_NCHW, l->n, l->c/l->groups, l->size, l->size);
+    cudnnSetFilter4dDescriptor(l->weightDesc, CUDNN_DATA_FLOAT, CUDNN_TENSOR_NCHW, l->n, l->c/l->groups, l->size, l->size);
     #if CUDNN_MAJOR >= 6
     cudnnSetConvolution2dDescriptor(l->convDesc, l->pad, l->pad, l->stride, l->stride, 1, 1, CUDNN_CROSS_CORRELATION, CUDNN_DATA_FLOAT);
     #else
@@ -144,6 +147,76 @@ void cudnn_convolutional_setup(layer *l)
         error("CUDNN < 7 doesn't support groups, please upgrade!");
     }
     #endif
+    #if CUDNN_MAJOR >= 8
+    int returnedAlgoCount;
+    cudnnConvolutionFwdAlgoPerf_t       fw_results[2 * CUDNN_CONVOLUTION_FWD_ALGO_COUNT];
+    cudnnConvolutionBwdDataAlgoPerf_t   bd_results[2 * CUDNN_CONVOLUTION_BWD_DATA_ALGO_COUNT];
+    cudnnConvolutionBwdFilterAlgoPerf_t bf_results[2 * CUDNN_CONVOLUTION_BWD_FILTER_ALGO_COUNT];
+
+    cudnnFindConvolutionForwardAlgorithm(cudnn_handle(),
+            l->srcTensorDesc,
+            l->weightDesc,
+            l->convDesc,
+            l->dstTensorDesc,
+            CUDNN_CONVOLUTION_FWD_ALGO_COUNT,
+            &returnedAlgoCount,
+	    fw_results);
+    for(int algoIndex = 0; algoIndex < returnedAlgoCount; ++algoIndex){
+        #if PRINT_CUDNN_ALGO > 0
+        printf("^^^^ %s for Algo %d: %f time requiring %llu memory\n",
+               cudnnGetErrorString(fw_results[algoIndex].status),
+               fw_results[algoIndex].algo, fw_results[algoIndex].time,
+               (unsigned long long)fw_results[algoIndex].memory);
+        #endif
+        if( fw_results[algoIndex].memory < MEMORY_LIMIT ){
+            l->fw_algo = fw_results[algoIndex].algo;
+            break;
+	}
+    }
+
+    cudnnFindConvolutionBackwardDataAlgorithm(cudnn_handle(),
+            l->weightDesc,
+            l->ddstTensorDesc,
+            l->convDesc,
+            l->dsrcTensorDesc,
+            CUDNN_CONVOLUTION_BWD_DATA_ALGO_COUNT,
+            &returnedAlgoCount,
+            bd_results);
+    for(int algoIndex = 0; algoIndex < returnedAlgoCount; ++algoIndex){
+        #if PRINT_CUDNN_ALGO > 0
+        printf("^^^^ %s for Algo %d: %f time requiring %llu memory\n",
+               cudnnGetErrorString(bd_results[algoIndex].status),
+               bd_results[algoIndex].algo, bd_results[algoIndex].time,
+               (unsigned long long)bd_results[algoIndex].memory);
+        #endif
+        if( bd_results[algoIndex].memory < MEMORY_LIMIT ){
+            l->bd_algo = bd_results[algoIndex].algo;
+            break;
+        }
+    }
+
+    cudnnFindConvolutionBackwardFilterAlgorithm(cudnn_handle(),
+            l->srcTensorDesc,
+            l->ddstTensorDesc,
+            l->convDesc,
+            l->dweightDesc,
+            CUDNN_CONVOLUTION_BWD_FILTER_ALGO_COUNT,
+            &returnedAlgoCount,
+            bf_results);
+    for(int algoIndex = 0; algoIndex < returnedAlgoCount; ++algoIndex){
+        #if PRINT_CUDNN_ALGO > 0
+        printf("^^^^ %s for Algo %d: %f time requiring %llu memory\n",
+               cudnnGetErrorString(bf_results[algoIndex].status),
+               bf_results[algoIndex].algo, bf_results[algoIndex].time,
+               (unsigned long long)bf_results[algoIndex].memory);
+        #endif
+        if( bf_results[algoIndex].memory < MEMORY_LIMIT ){
+            l->bf_algo = bf_results[algoIndex].algo;
+            break;
+        }
+    }
+
+    #else
 
     cudnnGetConvolutionForwardAlgorithm(cudnn_handle(),
             l->srcTensorDesc,
@@ -169,6 +242,7 @@ void cudnn_convolutional_setup(layer *l)
             CUDNN_CONVOLUTION_BWD_FILTER_SPECIFY_WORKSPACE_LIMIT,
             2000000000,
             &l->bf_algo);
+    #endif
 }
 #endif
 #endif
@@ -511,8 +585,8 @@ void backward_convolutional_layer(convolutional_layer l, network net)
             if(l.size == 1){
                 b = im;
             } else {
-                im2col_cpu(im, l.c/l.groups, l.h, l.w, 
-                        l.size, l.stride, l.pad, b);
+                im2col_cpu(im, l.c/l.groups, l.h, l.w,
+                           l.size, l.stride, l.pad, b);
             }
 
             gemm(0,1,m,n,k,1,a,k,b,k,1,c,n);
@@ -619,4 +693,3 @@ image *visualize_convolutional_layer(convolutional_layer l, char *window, image 
     free_image(dc);
     return single_weights;
 }
-

@@ -626,6 +626,54 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+home/zhuzhengming/workspace/src/serial_node/src/my_serial.o: home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.o
+.PHONY : home/zhuzhengming/workspace/src/serial_node/src/my_serial.o
+
+# target to build an object file
+home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hikrobot_camera.dir/build.make CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.o
+.PHONY : home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.o
+
+home/zhuzhengming/workspace/src/serial_node/src/my_serial.i: home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.i
+.PHONY : home/zhuzhengming/workspace/src/serial_node/src/my_serial.i
+
+# target to preprocess a source file
+home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hikrobot_camera.dir/build.make CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.i
+.PHONY : home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.i
+
+home/zhuzhengming/workspace/src/serial_node/src/my_serial.s: home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.s
+.PHONY : home/zhuzhengming/workspace/src/serial_node/src/my_serial.s
+
+# target to generate assembly for a file
+home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hikrobot_camera.dir/build.make CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.s
+.PHONY : home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.s
+
+home/zhuzhengming/workspace/src/serial_node/src/serial_node.o: home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.o
+.PHONY : home/zhuzhengming/workspace/src/serial_node/src/serial_node.o
+
+# target to build an object file
+home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hikrobot_camera.dir/build.make CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.o
+.PHONY : home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.o
+
+home/zhuzhengming/workspace/src/serial_node/src/serial_node.i: home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.i
+.PHONY : home/zhuzhengming/workspace/src/serial_node/src/serial_node.i
+
+# target to preprocess a source file
+home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hikrobot_camera.dir/build.make CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.i
+.PHONY : home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.i
+
+home/zhuzhengming/workspace/src/serial_node/src/serial_node.s: home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.s
+.PHONY : home/zhuzhengming/workspace/src/serial_node/src/serial_node.s
+
+# target to generate assembly for a file
+home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hikrobot_camera.dir/build.make CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.s
+.PHONY : home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.s
+
 src/hikrobot_camera.o: src/hikrobot_camera.cpp.o
 .PHONY : src/hikrobot_camera.o
 
@@ -698,6 +746,12 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... hikrobot_camera"
+	@echo "... home/zhuzhengming/workspace/src/serial_node/src/my_serial.o"
+	@echo "... home/zhuzhengming/workspace/src/serial_node/src/my_serial.i"
+	@echo "... home/zhuzhengming/workspace/src/serial_node/src/my_serial.s"
+	@echo "... home/zhuzhengming/workspace/src/serial_node/src/serial_node.o"
+	@echo "... home/zhuzhengming/workspace/src/serial_node/src/serial_node.i"
+	@echo "... home/zhuzhengming/workspace/src/serial_node/src/serial_node.s"
 	@echo "... src/hikrobot_camera.o"
 	@echo "... src/hikrobot_camera.i"
 	@echo "... src/hikrobot_camera.s"

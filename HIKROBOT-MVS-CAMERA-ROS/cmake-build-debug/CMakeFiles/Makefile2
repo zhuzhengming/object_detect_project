@@ -421,12 +421,12 @@ CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
 CMakeFiles/hikrobot_camera.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hikrobot_camera.dir/build.make CMakeFiles/hikrobot_camera.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hikrobot_camera.dir/build.make CMakeFiles/hikrobot_camera.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhuzhengming/workspace/src/HIKROBOT-MVS-CAMERA-ROS/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target hikrobot_camera"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhuzhengming/workspace/src/HIKROBOT-MVS-CAMERA-ROS/cmake-build-debug/CMakeFiles --progress-num=12,13,14,15 "Built target hikrobot_camera"
 .PHONY : CMakeFiles/hikrobot_camera.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hikrobot_camera.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhuzhengming/workspace/src/HIKROBOT-MVS-CAMERA-ROS/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhuzhengming/workspace/src/HIKROBOT-MVS-CAMERA-ROS/cmake-build-debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hikrobot_camera.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhuzhengming/workspace/src/HIKROBOT-MVS-CAMERA-ROS/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hikrobot_camera.dir/rule

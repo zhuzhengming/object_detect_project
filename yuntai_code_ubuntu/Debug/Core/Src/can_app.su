@@ -1,0 +1,3 @@
+can_app.c:5:19:CANFilterInit	56	static
+can_app.c:38:6:CanDataDecode	8	static
+can_app.c:51:6:HAL_CAN_RxFifo0MsgPendingCallback	72	static

@@ -1,0 +1,8 @@
+prefix=/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/devel
+
+Name: serial_node
+Description: Description of serial_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

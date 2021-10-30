@@ -1,0 +1,9 @@
+GM6020.c:7:6:GM6020_Init	16	static
+GM6020.c:39:6:P_Calc	16	static
+GM6020.c:48:6:PID_Calc	16	static
+GM6020.c:60:6:CanTransmit_GM6020_1234	56	static
+GM6020.c:86:6:CanTransmit_GM6020_567	56	static
+GM6020.c:107:6:get_dji_offset	16	static
+GM6020.c:116:19:GM6020_CanMsgDecode	24	static
+GM6020.c:137:6:GM6020_Update	16	static
+GM6020.c:168:6:GM6020_ctrl	24	static

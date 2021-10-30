@@ -163,7 +163,8 @@ void YoloObjectDetector::cameraCallback(const sensor_msgs::ImageConstPtr& msg) {
 
   try {
     if (msg->encoding == "mono8" || msg->encoding == "bgr8" || msg->encoding == "rgb8") {
-      cam_image = cv_bridge::toCvCopy(msg, msg->encoding);
+        cam_image = cv_bridge::toCvCopy(msg, "rgb8");//only for hik_camara
+        //cam_image = cv_bridge::toCvCopy(msg, msg->encoding);
     } else if ( msg->encoding == "bgra8") {
       cam_image = cv_bridge::toCvCopy(msg, "bgr8");
     } else if ( msg->encoding == "rgba8") {

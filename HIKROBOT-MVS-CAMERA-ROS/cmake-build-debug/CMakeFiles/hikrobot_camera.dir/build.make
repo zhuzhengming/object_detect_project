@@ -79,14 +79,44 @@ CMakeFiles/hikrobot_camera.dir/src/hikrobot_camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hikrobot_camera.dir/src/hikrobot_camera.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhuzhengming/workspace/src/HIKROBOT-MVS-CAMERA-ROS/src/hikrobot_camera.cpp -o CMakeFiles/hikrobot_camera.dir/src/hikrobot_camera.cpp.s
 
+CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.o: CMakeFiles/hikrobot_camera.dir/flags.make
+CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.o: /home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhuzhengming/workspace/src/HIKROBOT-MVS-CAMERA-ROS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.o -c /home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp
+
+CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp > CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.i
+
+CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp -o CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.s
+
+CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.o: CMakeFiles/hikrobot_camera.dir/flags.make
+CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.o: /home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhuzhengming/workspace/src/HIKROBOT-MVS-CAMERA-ROS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.o -c /home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp
+
+CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp > CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.i
+
+CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp -o CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.s
+
 # Object files for target hikrobot_camera
 hikrobot_camera_OBJECTS = \
-"CMakeFiles/hikrobot_camera.dir/src/hikrobot_camera.cpp.o"
+"CMakeFiles/hikrobot_camera.dir/src/hikrobot_camera.cpp.o" \
+"CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.o" \
+"CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.o"
 
 # External object files for target hikrobot_camera
 hikrobot_camera_EXTERNAL_OBJECTS =
 
 devel/lib/hikrobot_camera/hikrobot_camera: CMakeFiles/hikrobot_camera.dir/src/hikrobot_camera.cpp.o
+devel/lib/hikrobot_camera/hikrobot_camera: CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.o
+devel/lib/hikrobot_camera/hikrobot_camera: CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.o
 devel/lib/hikrobot_camera/hikrobot_camera: CMakeFiles/hikrobot_camera.dir/build.make
 devel/lib/hikrobot_camera/hikrobot_camera: /opt/ros/melodic/lib/libcv_bridge.so
 devel/lib/hikrobot_camera/hikrobot_camera: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
@@ -164,7 +194,7 @@ devel/lib/hikrobot_camera/hikrobot_camera: /usr/lib/x86_64-linux-gnu/libopencv_i
 devel/lib/hikrobot_camera/hikrobot_camera: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
 devel/lib/hikrobot_camera/hikrobot_camera: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 devel/lib/hikrobot_camera/hikrobot_camera: CMakeFiles/hikrobot_camera.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhuzhengming/workspace/src/HIKROBOT-MVS-CAMERA-ROS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable devel/lib/hikrobot_camera/hikrobot_camera"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhuzhengming/workspace/src/HIKROBOT-MVS-CAMERA-ROS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable devel/lib/hikrobot_camera/hikrobot_camera"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hikrobot_camera.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

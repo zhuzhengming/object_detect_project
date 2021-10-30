@@ -54,7 +54,7 @@ unsigned char getCrc8(uint8_t *ptr, uint8_t len)
 void Joy_Decode(void)
 {
     for (int i = 0; i < JOY_BAG_LENGTH; i++) {
-        Joy_Bag_t tempBag = *((Joy_Bag_t*) (void*) (&(joy_raw_data[i])));
+        Joy_Bag_t tempBag = *((Joy_Bag_t*) (void*) (&(joy_raw_data[i]));
 
         if (tempBag.head[0] == JOY_HEADER_HIGH &&tempBag.head[1] == JOY_HEADER_LOW &&tempBag.state==OK)
         {

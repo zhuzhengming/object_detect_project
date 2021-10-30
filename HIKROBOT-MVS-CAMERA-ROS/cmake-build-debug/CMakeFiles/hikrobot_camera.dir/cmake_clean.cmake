@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.o"
+  "CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.o"
   "CMakeFiles/hikrobot_camera.dir/src/hikrobot_camera.cpp.o"
   "devel/lib/hikrobot_camera/hikrobot_camera"
   "devel/lib/hikrobot_camera/hikrobot_camera.pdb"

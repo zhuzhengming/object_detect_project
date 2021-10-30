@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp" "/home/zhuzhengming/workspace/src/HIKROBOT-MVS-CAMERA-ROS/cmake-build-debug/CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/my_serial.cpp.o"
+  "/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp" "/home/zhuzhengming/workspace/src/HIKROBOT-MVS-CAMERA-ROS/cmake-build-debug/CMakeFiles/hikrobot_camera.dir/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp.o"
   "/home/zhuzhengming/workspace/src/HIKROBOT-MVS-CAMERA-ROS/src/hikrobot_camera.cpp" "/home/zhuzhengming/workspace/src/HIKROBOT-MVS-CAMERA-ROS/cmake-build-debug/CMakeFiles/hikrobot_camera.dir/src/hikrobot_camera.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
