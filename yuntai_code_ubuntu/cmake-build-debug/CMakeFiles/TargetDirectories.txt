@@ -1,3 +1,0 @@
-/home/zhuzhengming/STM32CubeIDE/workspace_1.6.0/yuntai_code_ubuntu/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/zhuzhengming/STM32CubeIDE/workspace_1.6.0/yuntai_code_ubuntu/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/zhuzhengming/STM32CubeIDE/workspace_1.6.0/yuntai_code_ubuntu/cmake-build-debug/CMakeFiles/yuntai_code_ubuntu.elf.dir
