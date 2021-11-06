@@ -1,0 +1,11 @@
+<launch>
+<!--  camera-->
+<include file = "$(find hikrobot_camera)/launch/hikrobot_camera.launch" />
+
+<!--  darkent_ros-->
+<include file = "$(find darknet_ros)/launch/darknet_ros.launch" />
+
+<!--  serial_node -->
+<node pkg = "serial_node"   type = "serial_node"    name = "serial_node"   output="screen" ></node>
+
+</launch>

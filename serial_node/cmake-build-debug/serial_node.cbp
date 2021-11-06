@@ -5,7 +5,7 @@
 		<Option title="serial_node"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\src\;CMake Files\..\..\..\..\..\usr\src\googletest\;CMake Files\..\..\..\..\..\usr\src\googletest\googlemock\;CMake Files\..\..\..\..\..\usr\src\googletest\googletest\;CMake Files\..\..\..\..\..\usr\src\googletest\googletest\cmake\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\..\opt\ros\melodic\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\catkin\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\catkin\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\catkin\cmake\platform\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\catkin\cmake\test\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\catkin\cmake\tools\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\catkin\cmake\templates\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\catkin\cmake\em\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\roscpp\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\roscpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\cpp_common\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\cpp_common\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\message_runtime\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\message_runtime\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\roscpp_serialization\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\roscpp_serialization\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\roscpp_traits\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\roscpp_traits\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\rostime\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\rostime\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\rosconsole\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\rosconsole\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\rosgraph_msgs\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\rosgraph_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\std_msgs\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\std_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\xmlrpcpp\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\xmlrpcpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\rospy\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\rospy\cmake\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\catkin\;CMake Files\cmake-build-debug\catkin\catkin_generated\;CMake Files\cmake-build-debug\catkin\catkin_generated\version\;CMake Files\cmake-build-debug\catkin_generated\;CMake Files\cmake-build-debug\catkin_generated\installspace\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\src\;CMake Files\..\..\..\..\..\usr\src\googletest\;CMake Files\..\..\..\..\..\usr\src\googletest\googlemock\;CMake Files\..\..\..\..\..\usr\src\googletest\googletest\;CMake Files\..\..\..\..\..\usr\src\googletest\googletest\cmake\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\..\opt\ros\melodic\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\catkin\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\catkin\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\catkin\cmake\platform\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\catkin\cmake\test\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\catkin\cmake\tools\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\catkin\cmake\templates\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\catkin\cmake\em\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\serial\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\serial\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\roscpp\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\roscpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\cpp_common\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\cpp_common\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\message_runtime\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\message_runtime\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\roscpp_serialization\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\roscpp_serialization\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\roscpp_traits\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\roscpp_traits\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\rostime\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\rostime\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\rosconsole\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\rosconsole\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\rosgraph_msgs\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\rosgraph_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\std_msgs\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\std_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\xmlrpcpp\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\xmlrpcpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\rospy\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\rospy\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\message_generation\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\message_generation\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\gencpp\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\gencpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\genmsg\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\genmsg\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\geneus\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\geneus\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\genlisp\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\genlisp\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\gennodejs\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\gennodejs\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\genpy\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\genpy\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\actionlib_msgs\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\actionlib_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\geometry_msgs\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\geometry_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\sensor_msgs\;CMake Files\..\..\..\..\..\opt\ros\melodic\share\sensor_msgs\cmake\;CMake Files\..\..\devel\;CMake Files\..\..\devel\share\;CMake Files\..\..\devel\share\darknet_ros_msgs\;CMake Files\..\..\devel\share\darknet_ros_msgs\cmake\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\catkin\;CMake Files\cmake-build-debug\catkin\catkin_generated\;CMake Files\cmake-build-debug\catkin\catkin_generated\version\;CMake Files\cmake-build-debug\catkin_generated\;CMake Files\cmake-build-debug\catkin_generated\installspace\;CMake Files\cmake-build-debug\devel\;CMake Files\cmake-build-debug\devel\share\;CMake Files\cmake-build-debug\devel\share\serial_node\;CMake Files\cmake-build-debug\devel\share\serial_node\cmake\;CMake Files\cmake-build-debug\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
@@ -37,21 +37,87 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="install">
+			<Target title="edit_cache">
 				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="list_install_components">
+			<Target title="serial_node">
+				<Option output="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/devel/lib/serial_node/serial_node" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/devel/lib/serial_node"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;serial_node&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/devel/include"/>
+					<Add directory="/home/zhuzhengming/workspace/src/serial_node/include"/>
+					<Add directory="/home/zhuzhengming/workspace/devel/include"/>
+					<Add directory="/opt/ros/melodic/include"/>
+					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/local/cuda-11.4/targets/x86_64-linux/include"/>
+					<Add directory="."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 serial_node"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serial_node/fast">
+				<Option output="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/devel/lib/serial_node/serial_node" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/devel/lib/serial_node"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;serial_node&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add directory="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/devel/include"/>
+					<Add directory="/home/zhuzhengming/workspace/src/serial_node/include"/>
+					<Add directory="/home/zhuzhengming/workspace/devel/include"/>
+					<Add directory="/opt/ros/melodic/include"/>
+					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/local/cuda-11.4/targets/x86_64-linux/include"/>
+					<Add directory="."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 serial_node/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serial_node_genpy">
 				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 serial_node_genpy"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -67,201 +133,51 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="roscpp_generate_messages_py">
+			<Target title="serial_node_generate_messages_nodejs">
 				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_py"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 serial_node_generate_messages_nodejs"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rosgraph_msgs_generate_messages_eus">
+			<Target title="serial_node_genlisp">
 				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_eus"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 serial_node_genlisp"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="sensor_msgs_generate_messages_py">
 				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_py"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="clean_test_results">
+			<Target title="std_msgs_generate_messages_eus">
 				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean_test_results"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_eus"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="std_msgs_generate_messages_nodejs">
+			<Target title="serial_node_generate_messages_py">
 				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="roscpp_generate_messages_cpp">
-				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="roscpp_generate_messages_eus">
-				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="test">
-				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="download_extra_data">
-				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 download_extra_data"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="std_msgs_generate_messages_lisp">
-				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="doxygen">
-				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 doxygen"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="run_tests">
-				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_tests"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="std_msgs_generate_messages_cpp">
-				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rosgraph_msgs_generate_messages_cpp">
-				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rosgraph_msgs_generate_messages_nodejs">
-				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="roscpp_generate_messages_nodejs">
-				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tests">
-				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 tests"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rosgraph_msgs_generate_messages_lisp">
-				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rosgraph_msgs_generate_messages_py">
-				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="std_msgs_generate_messages_py">
-				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_py"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 serial_node_generate_messages_py"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -277,11 +193,481 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="std_msgs_generate_messages_eus">
+			<Target title="std_msgs_generate_messages_py">
 				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_eus"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosgraph_msgs_generate_messages_py">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosgraph_msgs_generate_messages_lisp">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 tests"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roscpp_generate_messages_nodejs">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_tests">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_tests"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosgraph_msgs_generate_messages_cpp">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="darknet_ros_msgs_generate_messages_eus">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 darknet_ros_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doxygen">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 doxygen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serial_node_generate_messages_lisp">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 serial_node_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="actionlib_msgs_generate_messages_eus">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std_msgs_generate_messages_lisp">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="darknet_ros_msgs_generate_messages_nodejs">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 darknet_ros_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geometry_msgs_generate_messages_lisp">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roscpp_generate_messages_eus">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roscpp_generate_messages_cpp">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="actionlib_msgs_generate_messages_py">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geometry_msgs_generate_messages_eus">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clean_test_results">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean_test_results"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geometry_msgs_generate_messages_nodejs">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosgraph_msgs_generate_messages_eus">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roscpp_generate_messages_py">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serial_node_gennodejs">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 serial_node_gennodejs"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="darknet_ros_msgs_generate_messages_lisp">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 darknet_ros_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="download_extra_data">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 download_extra_data"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sensor_msgs_generate_messages_lisp">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="actionlib_msgs_generate_messages_lisp">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosgraph_msgs_generate_messages_nodejs">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serial_node_geneus">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 serial_node_geneus"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="actionlib_msgs_generate_messages_nodejs">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geometry_msgs_generate_messages_cpp">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sensor_msgs_generate_messages_nodejs">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std_msgs_generate_messages_nodejs">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geometry_msgs_generate_messages_py">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sensor_msgs_generate_messages_cpp">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="darknet_ros_msgs_generate_messages_cpp">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 darknet_ros_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serial_node_generate_messages_cpp">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 serial_node_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="actionlib_msgs_generate_messages_cpp">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std_msgs_generate_messages_cpp">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sensor_msgs_generate_messages_eus">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serial_node_generate_messages">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 serial_node_generate_messages"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serial_node_generate_messages_eus">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 serial_node_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="darknet_ros_msgs_generate_messages_py">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 darknet_ros_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_serial_node_generate_messages_check_deps_BoundingBox">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 _serial_node_generate_messages_check_deps_BoundingBox"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serial_node_gencpp">
+				<Option working_dir="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 serial_node_gencpp"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -520,6 +906,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/src/serial_node.cpp">
+			<Option target="serial_node"/>
+		</Unit>
 		<Unit filename="/usr/src/googletest/googlemock/src/gmock-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>
@@ -721,6 +1110,12 @@
 		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/catkin/cmake/em/pkg.pc.em">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\catkin\cmake\em\"/>
 		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/serial/cmake/serialConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\serial\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/serial/cmake/serialConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\serial\cmake\"/>
+		</Unit>
 		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/roscpp/cmake/roscpp-msg-extras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\roscpp\cmake\"/>
 		</Unit>
@@ -781,6 +1176,9 @@
 		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\std_msgs\cmake\"/>
 		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/std_msgs/cmake/std_msgs-msg-paths.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\std_msgs\cmake\"/>
+		</Unit>
 		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/std_msgs/cmake/std_msgsConfig-version.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\std_msgs\cmake\"/>
 		</Unit>
@@ -802,6 +1200,120 @@
 		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/rospy/cmake/rospyConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\rospy\cmake\"/>
 		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/message_generation/cmake/message_generationConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\message_generation\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/message_generation/cmake/message_generationConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\message_generation\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/gencpp/cmake/gencpp-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\gencpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/gencpp/cmake/gencppConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\gencpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/gencpp/cmake/gencppConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\gencpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/genmsg/cmake/genmsgConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/genmsg/cmake/genmsgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/genmsg/cmake/pkg-genmsg.cmake.em">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/genmsg/cmake/pkg-genmsg.context.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/genmsg/cmake/pkg-msg-extras.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/genmsg/cmake/pkg-msg-paths.cmake.develspace.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/genmsg/cmake/pkg-msg-paths.cmake.installspace.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/geneus/cmake/geneus-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\geneus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/geneus/cmake/geneusConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\geneus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/geneus/cmake/geneusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\geneus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/genlisp/cmake/genlisp-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\genlisp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/genlisp/cmake/genlispConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\genlisp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/genlisp/cmake/genlispConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\genlisp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/gennodejs/cmake/gennodejs-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\gennodejs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/gennodejs/cmake/gennodejsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\gennodejs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/gennodejs/cmake/gennodejsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\gennodejs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/genpy/cmake/genpy-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\genpy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/genpy/cmake/genpyConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\genpy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/genpy/cmake/genpyConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\genpy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/actionlib_msgs/cmake/actionlib_msgs-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\actionlib_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/actionlib_msgs/cmake/actionlib_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\actionlib_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/actionlib_msgs/cmake/actionlib_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\actionlib_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\actionlib_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/geometry_msgs/cmake/geometry_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\geometry_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/geometry_msgs/cmake/geometry_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\geometry_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/geometry_msgs/cmake/geometry_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\geometry_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/sensor_msgs/cmake/sensor_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\sensor_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\sensor_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../../../../opt/ros/melodic/share/sensor_msgs/cmake/sensor_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\melodic\share\sensor_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../devel/share/darknet_ros_msgs/cmake/darknet_ros_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\devel\share\darknet_ros_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../devel/share/darknet_ros_msgs/cmake/darknet_ros_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\devel\share\darknet_ros_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/../../devel/share/darknet_ros_msgs/cmake/darknet_ros_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\devel\share\darknet_ros_msgs\cmake\"/>
+		</Unit>
 		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/catkin/catkin_generated/version/package.cmake">
 			<Option virtualFolder="CMake Files\cmake-build-debug\catkin\catkin_generated\version\"/>
 		</Unit>
@@ -811,8 +1323,20 @@
 		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/catkin_generated/package.cmake">
 			<Option virtualFolder="CMake Files\cmake-build-debug\catkin_generated\"/>
 		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/catkin_generated/serial_node-msg-extras.cmake.develspace.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\catkin_generated\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/catkin_generated/serial_node-msg-extras.cmake.installspace.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\catkin_generated\"/>
+		</Unit>
 		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/catkin_generated/installspace/_setup_util.py">
 			<Option virtualFolder="CMake Files\cmake-build-debug\catkin_generated\installspace\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/devel/share/serial_node/cmake/serial_node-msg-paths.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\devel\share\serial_node\cmake\"/>
+		</Unit>
+		<Unit filename="/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/cmake/serial_node-genmsg.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

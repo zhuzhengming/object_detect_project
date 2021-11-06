@@ -1,8 +1,10 @@
 #include "ros/ros.h"
-#include "../../../devel/include/serial_node/BoundingBox.h"
+//#include "../../../devel/include/serial_node/BoundingBox.h"
 #include "serial/serial.h"
 #include "stdint.h"
 #include <ros/node_handle.h>
+#include <../../../devel/include/darknet_ros_msgs//BoundingBox.h>
+#include <../../../devel/include/darknet_ros_msgs//BoundingBoxes.h>
 
 #define YOLO_HEADER_HIGH 0x11
 #define YOLO_HEADER_LOW 0xa5
@@ -11,7 +13,7 @@
 #define YOLO_CHANNEL 0x16
 #define YOLO_ADD_LENGTH 2
 #define  YOLO_HEAD_LENGTH 2
-#define  YOLO_PAYLOAD_LENGTH 8
+#define  YOLO_PAYLOAD_LENGTH 17
 #define YOLO_BAG_LENGTH (YOLO_HEAD_LENGTH+YOLO_ADD_LENGTH+YOLO_PAYLOAD_LENGTH+2)
 
 float center_x;
@@ -27,8 +29,11 @@ typedef union {
         union {
             uint8_t payload[YOLO_PAYLOAD_LENGTH];
             struct {
+                int image_rows;
+                int image_cols;
                 float x;
                 float y;
+                uint8_t object_num;
             }__attribute__((packed));
         };
     } __attribute__((packed));
@@ -109,30 +114,40 @@ void bag_init(void){
     send_bag.head[0] = YOLO_HEADER_HIGH;
     send_bag.head[1] = YOLO_HEADER_LOW;
     send_bag.length = YOLO_BAG_LENGTH;
-    send_bag.x=100.0f;
-    send_bag.y=50.0f;	 
 }
 
-void object_callback(const serial_node::BoundingBox::ConstPtr &msg)
+void code(void){
+    send_bag.x = center_x;
+    send_bag.y = center_y;
+    send_bag.object_num = 1;
+    send_bag.image_rows = 1440;
+    send_bag.image_cols = 1080;
+}
+
+void object_callback(const darknet_ros_msgs::BoundingBoxes::ConstPtr &msg)
 {
-	 
-        // center_x = msg->xmin;
-        // center_y = msg->ymin;
+
+         center_x = (float )((msg->bounding_boxes[0].xmin+msg->bounding_boxes[0].xmax)/2);
+         center_y = (float )((msg->bounding_boxes[0].ymin+msg->bounding_boxes[0].ymax)/2);
+
+         code();
+
+
 }
 
 //发送给下位机
 void stm32_send_handle(const ros::TimerEvent &e){
 
-    for(int i = 0; i< 2; i++){
+//    for(int i = 0; i< 2; i++){
 
         if(serialTransmit(send_bag.raw, YOLO_BAG_LENGTH)){
-            ROS_INFO("successfully!,%f,%f",send_bag.x,send_bag.y);
-           // ROS_INFO("\033[33;1;45m arrow_state:%d <--> command: %d",recvBag.arrow_state,sendBag.command);
+//            ROS_INFO("successfully!");
+            ROS_INFO("%f,%f",send_bag.x,send_bag.y);
         }
         else{
-            ROS_INFO("serial failed");
+            //ROS_INFO("serial failed");
         }
-    }
+//    }
 
 }
 
@@ -146,7 +161,7 @@ int main(int argc, char ** argv){
     bag_init();
 
     //ros::Timer stm32_recv_thread = nh.createTimer( ros::Duration(0.01), stm32_recv_handle );//定时设置收数据频率
-    ros::Timer stm32_send_thread = nh.createTimer(ros::Duration(0.02), stm32_send_handle);//定时设置发数据频率,频率过快通讯会死，100hz可行
+    ros::Timer stm32_send_thread = nh.createTimer(ros::Duration(0.01), stm32_send_handle);//定时设置发数据频率
 
     ros::AsyncSpinner spinner(0);//多线程订阅，参数为0自动设计线程
     spinner.start();

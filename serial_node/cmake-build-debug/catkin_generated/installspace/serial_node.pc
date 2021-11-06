@@ -3,6 +3,6 @@ prefix=/usr/local
 Name: serial_node
 Description: Description of serial_node
 Version: 0.0.0
-Cflags: 
+Cflags: -I${prefix}/include
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: roscpp rospy std_msgs message_runtime

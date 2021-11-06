@@ -8,22 +8,14 @@ void GM6020_Init(void)
 {
 	for(int i =0; i<7; i++)
 	 {
-	// 		h6020s[i].speedPID.KP = 150;
-	// 		h6020s[i].speedPID.KI = 10;
-	// 		h6020s[i].speedPID.KD = 1;
-	// 		h6020s[i].speedPID.outputMax = 30000;
-
-			// h6020s[i].posPID.KP = 40.0f;
-	// 		h6020s[i].posPID.outputMax = 60;
-
-	// 		h6020s[i].encoder_resolution = 8192.0f;
 
 		h6020s[i].speedPID.KP = 15;
         h6020s[i].speedPID.KI = 1;
         h6020s[i].speedPID.KD = 1;
-        h6020s[i].speedPID.outputMax = 6000;
+        h6020s[i].speedPID.outputMax = 20000;
 
-        h6020s[i].posPID.KP = 50.0f;
+        h6020s[i].posPID.KP = 20.0f;
+        //h6020s[i].posPID.KP = 50.0f;
         h6020s[i].posPID.KI = 0;
         h6020s[i].posPID.KD =0;
         h6020s[i].posPID.outputMax = 1500;
@@ -167,24 +159,27 @@ void GM6020_Update(int id, uint8_t *fdbData) {
 
 void GM6020_ctrl(void){
 
-		for(int i = 0; i <2;i++){
-		//h6020s[i].posPID.fdb = h6020s[i].FdbData.RotorAngle_0_360;
-        //h6020s[i].posPID.ref = posRef;
-        P_Calc(&h6020s[i].posPID);
-		h6020s[i].speedPID.ref = h6020s[1].posPID.output;
+		for(int i = 0; i <2;i++) {
+//            h6020s[i].posPID.fdb = h6020s[i].AxisData.AxisAngle_inDegree;
+//            h6020s[i].posPID.ref = 10.0;
+            P_Calc(&h6020s[i].posPID);
+            h6020s[i].speedPID.ref = h6020s[i].posPID.output;
+
+            //speed
+            // h6020s[1].speedPID.fdb = h6020s[1].FdbData.rpm;
+            // h6020s[1].speedPID.ref = 60.0;
 
 
-        // h6020s[1].speedPID.fdb = h6020s[1].FdbData.rpm;
-		// h6020s[1].speedPID.ref = posRef;
 
-        PID_Calc(&h6020s[i].speedPID);
+            PID_Calc(&h6020s[i].speedPID);
+        }
 
         CanTransmit_GM6020_1234(&hcan1,
                              h6020s[0].speedPID.output,
                              h6020s[1].speedPID.output,
                              0,
                              0);
-        }
+
 }
 
 

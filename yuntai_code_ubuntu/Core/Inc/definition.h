@@ -48,7 +48,7 @@
 #define YOLO_CHANNEL 0x16
 #define YOLO_HEAD_LENGTH 2
 #define YOLO_ADD_LENGTH 2
-#define YOLO_PAYLOAD_LENGTH 8
+#define YOLO_PAYLOAD_LENGTH 17
 #define YOLO_BAG_LENGTH (YOLO_HEAD_LENGTH+YOLO_ADD_LENGTH+YOLO_PAYLOAD_LENGTH+2)
 
 
@@ -93,8 +93,11 @@ typedef union {
         union {
             uint8_t payload[YOLO_PAYLOAD_LENGTH];
             struct {
+                int image_rows;
+                int image_cols;
                 float x;
                 float y;
+                uint8_t object_num;
             }__attribute__((packed));
         };
     } __attribute__((packed));

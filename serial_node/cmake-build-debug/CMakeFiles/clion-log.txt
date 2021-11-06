@@ -41,32 +41,6 @@ CMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:48 (c
 -- BUILD_SHARED_LIBS is on
 -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
 -- serial_node: 1 messages, 0 services
-Traceback (most recent call last):
-  File "/opt/ros/melodic/share/catkin/cmake/parse_package_xml.py", line 115, in <module>
-    main()
-  File "/opt/ros/melodic/share/catkin/cmake/parse_package_xml.py", line 101, in main
-    package = parse_package(args.package_xml)
-  File "/usr/lib/python2.7/dist-packages/catkin_pkg/package.py", line 570, in parse_package
-    return parse_package_string(xml, filename, warnings=warnings)
-  File "/usr/lib/python2.7/dist-packages/catkin_pkg/package.py", line 771, in parse_package_string
-    raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
-catkin_pkg.package.InvalidPackage: Error(s) in package '/home/zhuzhengming/workspace/src/serial_node/package.xml':
-Error(s):
-- The manifest of package "serial_node" (with format version 2) must not contain the following tags: run_depend
-- Please replace <run_depend> tags with <exec_depend> tags.
-CMake Error at /opt/ros/melodic/share/catkin/cmake/safe_execute_process.cmake:11 (message):
-  execute_process(/usr/bin/python2
-  "/opt/ros/melodic/share/catkin/cmake/parse_package_xml.py"
-  "/home/zhuzhengming/workspace/src/serial_node/package.xml"
-  "/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/catkin_generated/package.cmake")
-  returned error code 1
-Call Stack (most recent call first):
-  /opt/ros/melodic/share/catkin/cmake/catkin_package_xml.cmake:74 (safe_execute_process)
-  /opt/ros/melodic/share/catkin/cmake/catkin_package_xml.cmake:50 (_catkin_package_xml)
-  /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:99 (catkin_package_xml)
-  CMakeLists.txt:22 (catkin_package)
-
-
--- Configuring incomplete, errors occurred!
-See also "/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/CMakeFiles/CMakeOutput.log".
-See also "/home/zhuzhengming/workspace/src/serial_node/cmake-build-debug/CMakeFiles/CMakeError.log".
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zhuzhengming/workspace/src/serial_node/cmake-build-debug

@@ -9,47 +9,47 @@ currectCrc: previous crc value, set 0 if it's first section
 src: source stream data
 lengthInBytes: length
 */
-static void crc16_update(uint16_t *currectCrc, const uint8_t *src, uint32_t lengthInBytes)
-{
-    uint32_t crc = *currectCrc;
-    uint32_t j;
-    for (j=0; j < lengthInBytes; ++j)
-    {
-        uint32_t i;
-        uint32_t byte = src[j];
-        crc ^= byte << 8;
-        for (i = 0; i < 8; ++i)
-        {
-            uint32_t temp = crc << 1;if (crc & 0x8000)
-            {
-                temp ^= 0x1021;
-            }
-            crc = temp;
-        }
-    }
-    *currectCrc = crc;
-}
+//static void crc16_update(uint16_t *currectCrc, const uint8_t *src, uint32_t lengthInBytes)
+//{
+//    uint32_t crc = *currectCrc;
+//    uint32_t j;
+//    for (j=0; j < lengthInBytes; ++j)
+//    {
+//        uint32_t i;
+//        uint32_t byte = src[j];
+//        crc ^= byte << 8;
+//        for (i = 0; i < 8; ++i)
+//        {
+//            uint32_t temp = crc << 1;if (crc & 0x8000)
+//            {
+//                temp ^= 0x1021;
+//            }
+//            crc = temp;
+//        }
+//    }
+//    *currectCrc = crc;
+//}
 
 //joystick_decode
 
-unsigned char getCrc8(uint8_t *ptr, uint8_t len)
-{
-    uint8_t crc;
-    uint8_t i;
-    crc = 0;
-    while(len--)
-    {
-        crc ^= *ptr++;
-        for(i = 0; i < 8; i++)
-        {
-            if(crc&0x01)
-                crc=(crc>>1)^0x8C;
-            else
-                crc >>= 1;
-        }
-    }
-    return crc;
-}
+//unsigned char getCrc8(uint8_t *ptr, uint8_t len)
+//{
+//    uint8_t crc;
+//    uint8_t i;
+//    crc = 0;
+//    while(len--)
+//    {
+//        crc ^= *ptr++;
+//        for(i = 0; i < 8; i++)
+//        {
+//            if(crc&0x01)
+//                crc=(crc>>1)^0x8C;
+//            else
+//                crc >>= 1;
+//        }
+//    }
+//    return crc;
+//}
 
 void Joy_Decode(void)
 {
@@ -84,10 +84,9 @@ void YOLO_Decode(void){
         if(tempBag.head[0] == YOLO_HEADER_HIGH && tempBag.head[1] == YOLO_HEADER_LOW)
         {
             yolo_revbag = *(YOLO_Bag_t*)(void*)(tempBag.raw);
+            flag_counter ++;
         }
-        
     }
-    
 }
 
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
