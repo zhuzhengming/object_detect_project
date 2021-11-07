@@ -9,19 +9,33 @@ void GM6020_Init(void)
 	for(int i =0; i<7; i++)
 	 {
 
-		h6020s[i].speedPID.KP = 15;
-        h6020s[i].speedPID.KI = 1;
-        h6020s[i].speedPID.KD = 1;
-        h6020s[i].speedPID.outputMax = 20000;
+//		h6020s[i].speedPID.KP = 15;
+//        h6020s[i].speedPID.KI = 1;
+//        h6020s[i].speedPID.KD = 1;
+//        h6020s[i].speedPID.outputMax = 20000;
+//
+//        h6020s[i].posPID.KP = 20.0f;
+//        //h6020s[i].posPID.KP = 50.0f;
+//        h6020s[i].posPID.KI = 0;
+//        h6020s[i].posPID.KD =0;
+//        h6020s[i].posPID.outputMax = 1500;
+//
+//		h6020s[i].reductionRate = 1.0f;
+//		h6020s[i].encoder_resolution = 8192.0f;
 
-        h6020s[i].posPID.KP = 20.0f;
-        //h6020s[i].posPID.KP = 50.0f;
-        h6020s[i].posPID.KI = 0;
-        h6020s[i].posPID.KD =0;
-        h6020s[i].posPID.outputMax = 1500;
+//test pid for object tracking
+            h6020s[i].speedPID.KP = 5.0;
+            h6020s[i].speedPID.KI = 0.001;
+            h6020s[i].speedPID.KD = 0.05;
+            h6020s[i].speedPID.outputMax = 6000;
 
-		h6020s[i].reductionRate = 1.0f;
-		h6020s[i].encoder_resolution = 8192.0f;
+            h6020s[i].posPID.KP = 2.0f;
+            h6020s[i].posPID.KI = 0;
+            h6020s[i].posPID.KD =0;
+            h6020s[i].posPID.outputMax = 1500;
+
+            h6020s[i].reductionRate = 1.0f;
+            h6020s[i].encoder_resolution = 8192.0f;
 
 	}
 }
@@ -34,6 +48,16 @@ void P_Calc(PID_t *pid){
 	/*设定输出上限*/
 	if(pid->output > pid->outputMax) pid->output = pid->outputMax;
 	if(pid->output < -pid->outputMax) pid->output = -pid->outputMax;
+
+    //reverse output due to camera image
+//    if(joy_revbag.buttons == 2){
+//        pid->cur_error = pid->ref - pid->fdb;
+//        pid->output = pid->KP * pid->cur_error;
+//        pid->output = -pid->output;
+//        /*设定输出上限*/
+//        if(pid->output > pid->outputMax) pid->output = pid->outputMax;
+//        if(pid->output < -pid->outputMax) pid->output = -pid->outputMax;
+//    }
 
 }
 

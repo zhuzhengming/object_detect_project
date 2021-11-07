@@ -2,26 +2,27 @@
 // Created by zhuzhengming on 2021/10/28.
 //
 #include "mission.h"
+#define K 10.0
 
-void pid_update_for_object_tracking(void){
-        for(int i =0; i<7; i++)
-        {
-
-            h6020s[i].speedPID.KP = 15;
-            h6020s[i].speedPID.KI = 1;
-            h6020s[i].speedPID.KD = 1;
-            h6020s[i].speedPID.outputMax = 20000;
-
-            h6020s[i].posPID.KP = 20.0f;
-            //h6020s[i].posPID.KP = 50.0f;
-            h6020s[i].posPID.KI = 0;
-            h6020s[i].posPID.KD =0;
-            h6020s[i].posPID.outputMax = 1500;
-
-            h6020s[i].reductionRate = 1.0f;
-            h6020s[i].encoder_resolution = 8192.0f;
-        }
-}
+//void pid_update_for_object_tracking(void){
+//        for(int i =0; i<7; i++)
+//        {
+//
+//            h6020s[i].speedPID.KP = 20.0;
+//            h6020s[i].speedPID.KI = 0;
+//            h6020s[i].speedPID.KD = 0;
+//            h6020s[i].speedPID.outputMax = 6000;
+//
+//            h6020s[i].posPID.KP = 10.0f;
+//            //h6020s[i].posPID.KP = 50.0f;
+//            h6020s[i].posPID.KI = 0;
+//            h6020s[i].posPID.KD =0;
+//            h6020s[i].posPID.outputMax = 1500;
+//
+//            h6020s[i].reductionRate = 1.0f;
+//            h6020s[i].encoder_resolution = 8192.0f;
+//        }
+//}
 
 void mode_change(void){
     joy_revbag.buttons = 2;
@@ -51,24 +52,30 @@ void mode_change(void){
         //object_track
         case 2:
             //update pid
-            pid_update_for_object_tracking();
+//            pid_update_for_object_tracking();
 
             if(yolo_revbag.object_num == 1 && yolo_revbag.x > 20.0 && yolo_revbag.y > 20.0) {
 
-                h6020s[0].posPID.fdb = (float) (yolo_revbag.x / 10);
-                h6020s[1].posPID.fdb = (float) (yolo_revbag.y / 10);
-
+                h6020s[0].posPID.fdb = (float) ( yolo_revbag.x / K);
+                h6020s[1].posPID.fdb = (float) (  yolo_revbag.y / K);
             }
+
             //center position
-            h6020s[0].posPID.ref = (float )(yolo_revbag.image_rows/10*2);
-            h6020s[1].posPID.ref = (float )(yolo_revbag.image_cols/10*2);
+            h6020s[0].posPID.ref = (float )(Image_rows/(K*2));
+            h6020s[1].posPID.ref = (float )(Image_cols/(K*2));
+
+//            if(h6020s[0].posPID.ref - h6020s[0].posPID.fdb > 10.0)   h6020s[0].posPID.ref = h6020s[0].posPID.fdb + 10.0;
+//            if(h6020s[0].posPID.ref - h6020s[0].posPID.fdb < -10.0)     h6020s[0].posPID.ref = h6020s[0].posPID.fdb - 10.0;
+//            if(h6020s[1].posPID.ref - h6020s[1].posPID.fdb > 10.0)   h6020s[1].posPID.ref = h6020s[1].posPID.fdb + 10.0;
+//            if(h6020s[1].posPID.ref - h6020s[1].posPID.fdb < -10.0)     h6020s[1].posPID.ref = h6020s[1].posPID.fdb - 10.0;
 
             break;
 
     }
 }
 
-//  100HZ
+
+//  100kHZ
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
     if(htim->Instance == TIM2){

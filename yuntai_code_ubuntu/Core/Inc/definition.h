@@ -46,10 +46,12 @@
 #define YOLO_ADDRESS_HIGH 0x00
 #define YOLO_ADDRESS_LOW 0x03
 #define YOLO_CHANNEL 0x16
+#define  Image_rows 1440
+#define  Image_cols 1080
 #define YOLO_HEAD_LENGTH 2
-#define YOLO_ADD_LENGTH 2
-#define YOLO_PAYLOAD_LENGTH 17
-#define YOLO_BAG_LENGTH (YOLO_HEAD_LENGTH+YOLO_ADD_LENGTH+YOLO_PAYLOAD_LENGTH+2)
+#define YOLO_ADD_LENGTH 0
+#define YOLO_PAYLOAD_LENGTH 9
+#define YOLO_BAG_LENGTH (YOLO_HEAD_LENGTH+YOLO_ADD_LENGTH+YOLO_PAYLOAD_LENGTH+1)
 
 
 typedef union {
@@ -86,15 +88,13 @@ typedef union {
 typedef union {
     uint8_t raw[YOLO_BAG_LENGTH];
     struct {
-        uint8_t ADD[YOLO_ADD_LENGTH];
-        uint8_t CHAN;
+//        uint8_t ADD[YOLO_ADD_LENGTH];
+//        uint8_t CHAN;
         uint8_t head[YOLO_HEAD_LENGTH];
         uint8_t length;
         union {
             uint8_t payload[YOLO_PAYLOAD_LENGTH];
             struct {
-                int image_rows;
-                int image_cols;
                 float x;
                 float y;
                 uint8_t object_num;

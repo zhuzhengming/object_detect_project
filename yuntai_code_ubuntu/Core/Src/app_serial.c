@@ -81,7 +81,7 @@ void YOLO_Decode(void){
     for (int i = 0; i < YOLO_BAG_LENGTH; i++)
     {
         YOLO_Bag_t tempBag = *(YOLO_Bag_t*)(void*)(&(yolo_raw_data[i]));
-        if(tempBag.head[0] == YOLO_HEADER_HIGH && tempBag.head[1] == YOLO_HEADER_LOW)
+        if(tempBag.head[0] == YOLO_HEADER_HIGH && tempBag.head[1] == YOLO_HEADER_LOW && tempBag.length == YOLO_BAG_LENGTH)
         {
             yolo_revbag = *(YOLO_Bag_t*)(void*)(tempBag.raw);
             flag_counter ++;
